@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 130px;
+}
+
+input[type=text] {
+    width: 20%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 3px solid green;
+  }
+
+input[type=submit]{
+    width: 10%;
+    height: 30px;
+}

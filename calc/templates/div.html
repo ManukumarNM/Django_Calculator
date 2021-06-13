@@ -1,0 +1,11 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+<form action="division" method="POST">
+    {% csrf_token %}
+    Enter first number: <input type="text" name="num1" required><br><br>
+    Enter second number: <input type="text" name="num2" required><br><br>
+    <input type="submit">
+</form>
+{% endblock %}
